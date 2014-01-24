@@ -1,6 +1,6 @@
 <?php
 	// Edit this ->
-	define( 'MQ_SERVER_ADDR', 'mc.ecocitycraft.com' );
+	define( 'MQ_SERVER_ADDR', '127.0.0.1' );
 	define( 'MQ_SERVER_PORT', 25565 );
 	define( 'MQ_TIMEOUT', 1 );
 	// Edit this <-
@@ -55,7 +55,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Minecraft Ping PHP Class</title>
+	<title>Ping PHP Class</title>
 	
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 	<style type="text/css">
@@ -75,9 +75,9 @@
 <body>
     <div class="container">
     	<div class="jumbotron">
-			<h1>Minecraft Ping PHP Class</h1>
+			<h1>Ping PHP Class</h1>
 			
-			<p>This class was created to query Minecraft servers. It works starting from Minecraft 1.0.</p>
+			<p>This class was created to query servers. It works starting from 1.0.</p>
 			
 			<p>
 				<a class="btn btn-large btn-primary" href="http://xpaw.ru">Made by xPaw</a>

@@ -1,7 +1,8 @@
+
 <?php
 	// Edit this ->
 	define( 'MQ_SERVER_ADDR', 'localhost' );
-	define( 'MQ_SERVER_PORT', 25566 );
+	define( 'MQ_SERVER_PORT', 25565 );
 	define( 'MQ_TIMEOUT', 1 );
 	// Edit this <-
 	
@@ -30,9 +31,9 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Minecraft Query PHP Class</title>
+	<title>Query PHP Class</title>
 	
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stingsmc.de/test/bootstrap.min.css">
 	<style type="text/css">
 		.jumbotron {
 			margin-top: 30px;
@@ -50,9 +51,9 @@
 <body>
     <div class="container">
     	<div class="jumbotron">
-			<h1>Minecraft Query PHP Class</h1>
+			<h1>Query PHP Class</h1>
 			
-			<p>This class was created to query Minecraft servers. It works starting from Minecraft 1.0.</p>
+			<p>This class was created to query servers. It works starting from 1.0.</p>
 			
 			<p>
 				<a class="btn btn-large btn-primary" href="http://xpaw.ru">Made by xPaw</a>
@@ -60,6 +61,12 @@
 				<a class="btn btn-large btn-danger" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 			</p>
 		</div>
+<?php
+echo "<pre>";
+print_r( $Query->GetAll( ) );
+echo "</pre>";
+?>
+
 
 <?php if( isset( $Exception ) ): ?>
 		<div class="panel panel-primary">

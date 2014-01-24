@@ -63,7 +63,62 @@ class MinecraftQuery
 	{
 		return isset( $this->Players ) ? $this->Players : false;
 	}
+
+	public function GetAll( )
+	{
+		return isset( $this ) ? $this : false;
+	}
+
+	public function GetPlugins( )
+        {
+                return isset( $this->Info[ 'Plugins' ] ) ? $this->Info[ 'Plugins' ] : false;
+        }	
+
+	public function GetMOTD( )
+        {
+                return isset( $this->Info[ 'HostName' ] ) ? $this->Info[ 'HostName' ] : false;
+        }
+
+	public function GetVersion( )
+        {
+                return isset( $this->Info[ 'Version' ] ) ? $this->Info[ 'Version' ] : false;
+        }
 	
+	public function GetGameType( )
+        {
+                return isset( $this->Info[ 'GameType' ] ) ? $this->Info[ 'GameType' ] : false;
+        }
+
+	public function GetMap( )
+        {
+                return isset( $this->Info[ 'Map' ] ) ? $this->Info[ 'Map' ] : false;
+        }
+
+	public function GetMaxPlayers( )
+        {
+                return isset( $this->Info[ 'MaxPlayers' ] ) ? $this->Info[ 'MaxPlayers' ] : false;
+        }
+
+	public function GetHostPort( )
+        {
+                return isset( $this->Info[ 'HostPort' ] ) ? $this->Info[ 'HostPort' ] : false;
+        }
+
+	public function GetHostIp( )
+        {
+                return isset( $this->Info[ 'HostIp' ] ) ? $this->Info[ 'HostIp' ] : false;
+        }
+
+	public function GetRawPlugins( )
+        {
+                return isset( $this->Info[ 'RawPlugins' ] ) ? $this->Info[ 'RawPlugins' ] : false;
+        }
+
+        public function GetSoftware( )
+        {
+                return isset( $this->Info[ 'Software' ] ) ? $this->Info[ 'Software' ] : false;
+        }
+
 	private function GetChallenge( )
 	{
 		$Data = $this->WriteData( self :: HANDSHAKE );
