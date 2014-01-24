@@ -57,7 +57,7 @@
 	<meta charset="utf-8">
 	<title>Ping PHP Class</title>
 	
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stingsmc.de/query/bootstrap.min.css">
 	<style type="text/css">
 		.jumbotron {
 			margin-top: 30px;
@@ -81,7 +81,7 @@
 			
 			<p>
 				<a class="btn btn-large btn-primary" href="http://xpaw.ru">Made by xPaw</a>
-				<a class="btn btn-large btn-primary" href="https://github.com/xPaw/PHP-Minecraft-Query">View on GitHub</a>
+				<a class="btn btn-large btn-primary" href="https://github.com/Kruemmelmonster/PHP-Minecraft-Query">View on GitHub</a>
 				<a class="btn btn-large btn-danger" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 			</p>
 		</div>
