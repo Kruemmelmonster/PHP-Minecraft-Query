@@ -33,7 +33,7 @@
 	<meta charset="utf-8">
 	<title>Query PHP Class</title>
 	
-	<link rel="stylesheet" href="https://stingsmc.de/test/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stingsmc.de/query/bootstrap.min.css">
 	<style type="text/css">
 		.jumbotron {
 			margin-top: 30px;
@@ -61,12 +61,6 @@
 				<a class="btn btn-large btn-danger" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>
 			</p>
 		</div>
-<?php
-echo "<pre>";
-print_r( $Query->GetAll( ) );
-echo "</pre>";
-?>
-
 
 <?php if( isset( $Exception ) ): ?>
 		<div class="panel panel-primary">
